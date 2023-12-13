@@ -1,0 +1,139 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.circle-dem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.demo-area {
+  position: absolute;
+}
+.dem-title {
+  position: fixed;
+  top: 10%;
+}
+.made-with {
+  position: fixed;
+  bottom: 5%;
+}
+.dem-title, .made-with {
+  color: black;
+}
+
+@media only screen and (min-width: 576px) {
+  body {
+    background-color: black;
+  }
+  .dem-title, .made-with {
+    color: white;
+  }
+  .dem-title {
+    margin-bottom: 35%;
+  }
+  .mw-title {
+    margin-top: 35%;
+  }
+}
+
+/* Circle styles */
+.circle-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 20px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.circle.red { background-color: red; }
+.circle.green { background-color: green; }
+.circle.blue { background-color: blue; }
+.circle.orange { background-color: orange; }
+.circle.yellow { background-color: yellow; }
+
+.circle .label {
+  display:none;
+  position: absolute;
+  bottom: -50%;
+  color: white;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+}
+.circle:hover .label {
+  display: block;
+}
+.circle-row:hover .circle {
+  opacity: 0.5; /* Fade out other circles when any circle is hovered */
+}
+.circle-row .circle:hover {
+  opacity: 1!important; /* Change opacity on hover */
+}
+
+/* Square styles */
+.square-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.square {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 20px 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.square.red { background-color: red; }
+.square.green { background-color: green; }
+.square.blue { background-color: blue; }
+.square.orange { background-color: orange; }
+.square.yellow { background-color: yellow; }
+
+.square-row:hover .square {
+  opacity: 0.5; /* Fade out other circles when any circle is hovered */
+}
+.square-row .square:hover {
+  opacity: 1!important; /* Change opacity on hover */
+}
+.square .label {
+  display:none;
+  position: absolute;
+  top: -30%;
+  color: white;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+}
+.square:hover .label {
+  display: block;
+}
