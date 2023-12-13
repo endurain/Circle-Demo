@@ -14,9 +14,9 @@ is hovered, it should have the same effect as the circles. State the color above
 Page should be responsive, have a black background except when viewing on mobile, background
 should be white, Open Sans font should be used, the site title should be your name and date, center
 content and code should be commented. Use any libraries you are comfortable with, just list them on
-the page after the circles and squares in a “Made with” section.:
+the page after the circles and squares in a “Made with” section.
 
-![Circle Demo IMG](https://github.com/endurain/Circle-Demo/main/circle-demo.png)
+![Circle Demo IMG](https://github.com/endurain/Circle-Demo/blob/main/circle-demo.png)
 
 
 
