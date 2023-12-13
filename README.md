@@ -1,7 +1,8 @@
 
 Demo Link: https://inspiring-chaja-f66ef6.netlify.app/
 
-Requirements
+Requirements: 
+
 We need 5 circles in a row. They should be in the following order. Red, Green, Blue, Orange and Yellow.
 
 When they are hovered, text should appear under the icon that states what the color is and all other
@@ -15,7 +16,7 @@ should be white, Open Sans font should be used, the site title should be your na
 content and code should be commented. Use any libraries you are comfortable with, just list them on
 the page after the circles and squares in a “Made with” section.:
 
-![React HTML Table](https://github.com/endurain/Circle-Demo/blob/main/circle-demo.png)
+![Circle Demo IMG](https://github.com/endurain/Circle-Demo/main/circle-demo.png)
 
 
 
